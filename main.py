@@ -42,11 +42,4 @@ class plants():
         return str(1)
             
             
-            
-"""        
-            y
-         y  y  
-       y x  y
-     y x x  y
-   y x x x 
-"""
+   
