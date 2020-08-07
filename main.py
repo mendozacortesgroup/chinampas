@@ -6,6 +6,8 @@ Created on Sun Aug  2 16:29:07 2020
 """
 from copy import deepcopy
 import pdb
+
+
 class plants():
     def __init__(self, external=3,cost=0):
         if external <3:
@@ -17,13 +19,11 @@ class plants():
         self.h = 2  # height
         self.all = {}  # all activated
         
-    
     def gl(self,degree = 0):
         # grafring left
         self.chinampa[self.h-degree] = self.chinampa.get(self.h-degree,[]) + [self.top-1 -degree*(1j+1)]
         self.h = self.h+1
         self.top = self.top +1j
-
 
     def gr(self,degree = 0):
         # grafting right
@@ -31,27 +31,24 @@ class plants():
         self.h = self.h+1
         self.top = self.top +1+1j
 
-
     def chinampa(self):
         # returns chinampa
         return self.chinampa
 
-    
-    def root(self,i=0):
-        # adds the i root
+    def digging(self,i=0):
+        # adds the i transformation
         keys = sorted(self.chinampa.keys())
         activations = self.chinampa[keys[0]]
         try:
             root = activations[i]
         except IndexError:
             print('No such root')
-            return ''
+
         activations.remove(root)
         old = self.chinampa.get(keys[0]-1,[])
         self.chinampa[keys[0]-1] = old + [root-1,root-1-1j]
-        return 'root updated'
 
-        
+    
     def fill(self):
         # creates a copy of external and returns all activations
         self.all = self.chinampa.copy()
@@ -68,31 +65,49 @@ class plants():
                         self.all[i+1] = self.all.get(i+1,[])+[element+1j]
                         initial = element
         return self.all 
+
     def __str__():
         # it should print x and y to form cascades
         return 'we are now using self.fill to get all activations'            
 
-def poli(plant,garden, n):
+
+def poli(plant,garden, n, digging = True):
     # Auxiliar function
     if n == 0:
         garden.append(plant)
+    elif n<0:
+        print(n)    
     else:
         temp = deepcopy(plant)
+        if digging:
+            temp2 = deepcopy(plant)
+            temp3 = deepcopy(plant)
+            temp2.digging(0)
+            temp3.digging(1)
+            poli(temp2, garden, n-1)
+            poli(temp3, garden, n-1)
         plant.gr()
         temp.gl()
         poli(plant, garden, n-1)
         poli(temp, garden, n-1)
 
+
+
 def catalog(n=3):
-    # this returns a list of all plants with n external activations
+    # this returns a list of all cascades with n external activations and cost 0
     pyramid = plants()
     ext = n-3
     garden = []
-    poli(pyramid, garden, ext)
+    poli(pyramid, garden, ext, False) # this makes plants
+    chinampa = [plants() for i in [0,1,2]] # here we add roots
+    [chinampa[i].digging(i) for i in [0,1,2]]
+    poli(chinampa[0], garden, ext-1)
+    poli(chinampa[1], garden, ext-1)
+    poli(chinampa[2], garden, ext-1)
     return garden        
     
-print('test with all plants on 5 vertex')
-assert len(catalog(5)) == 4
+#assert len(catalog(5)) == 4
+#cahprint('test with all plants on 5 vertex passed')
     
     
     
