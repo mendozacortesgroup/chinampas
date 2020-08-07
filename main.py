@@ -6,6 +6,7 @@ Created on Sun Aug  2 16:29:07 2020
 """
 from copy import deepcopy
 import pdb
+import pprint
 
 
 class plants():
@@ -56,7 +57,6 @@ class plants():
         for i in range(self.h):
             listOfExternals = externals.get(i,[])
             numberAtLeveli = len(listOfExternals)
-            print(numberAtLeveli)
             if numberAtLeveli:
                 listOfExternals = sorted( listOfExternals, key = lambda x: x.real)                
                 initial = listOfExternals[0]
@@ -76,7 +76,7 @@ def poli(plant,garden, n, digging = True):
     if n == 0:
         garden.append(plant)
     elif n<0:
-        print(n)    
+        pass    
     else:
         temp = deepcopy(plant)
         if digging:
@@ -106,13 +106,14 @@ def catalog(n=3):
     poli(chinampa[2], garden, ext-1)
     return garden        
     
-#assert len(catalog(5)) == 4
-#cahprint('test with all plants on 5 vertex passed')
+first = catalog(4)
+assert len(first) == 5
+print('test with all plants on 5 vertex passed')
+[pprint.pprint(elem.fill(),indent=4,width=1) for elem in first]
     
     
     
-    
-    
+
     
     
     
