@@ -16,21 +16,43 @@ class plants():
         self.h = 2  # height
         self.all = {}  # all activated
         
-    def fill(self):
-        self.__str__()
-        return self.all
     
     def gl(self,degree = 0):
+        # grafring left
         self.chinampa[self.h-degree] = self.chinampa.get(self.h-degree,[]) + [self.top-1 -degree*(1j+1)]
         self.h = self.h+1
         self.top = self.top +1j
 
-    def gr(self,degree = 0):        
+
+    def gr(self,degree = 0):
+        # grafting right
         self.chinampa[self.h-degree] =self.chinampa.get(self.h-degree,[])+ [self.top+1-degree*1j] 
         self.h = self.h+1
         self.top = self.top +1+1j
+
+
+    def chinampa(self):
+        # returns chinampa
+        return self.chinampa
+
+    
+    def root(self,i=0):
+        # adds the i root
+        keys = sorted(self.chinampa.keys())
+        activations = self.chinampa[keys[0]]
+        try:
+            root = activations[i]
+        except IndexError:
+            print('No such root')
+            return ''
+        activations.remove(root)
+        old = self.chinampa.get(keys[0]-1,[])
+        self.chinampa[keys[0]-1] = old + [root-1,root-1-1j]
+        return 'root updated'
+
         
-    def __str__(self):
+    def fill(self):
+        # creates a copy of external and returns all activations
         pdb.set_trace()
         self.all = self.chinampa.copy()
         externals = self.all
@@ -45,7 +67,9 @@ class plants():
                     if element == initial+1:
                         self.all[i+1] = self.all.get(i+1,[])+[element+1j]
                         initial = element
-        return str('output in self.all')
-            
-            
+        return self.all
+
+    def __str__():
+        # it should print x and y to form cascades
+        return 'we are now using self.fill to get all activations'            
    
