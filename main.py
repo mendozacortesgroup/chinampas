@@ -4,9 +4,10 @@ Created on Sun Aug  2 16:29:07 2020
 
 @author: FSU
 """
+from copy import deepcopy
 import pdb
 class plants():
-    def __init__(self, cost=0,external=3):
+    def __init__(self, external=3,cost=0):
         if external <3:
             return None
         self.n = external-3  # we take 3 for pyramid(3) 
@@ -53,7 +54,6 @@ class plants():
         
     def fill(self):
         # creates a copy of external and returns all activations
-        pdb.set_trace()
         self.all = self.chinampa.copy()
         externals = self.all
         for i in range(self.h):
@@ -67,9 +67,40 @@ class plants():
                     if element == initial+1:
                         self.all[i+1] = self.all.get(i+1,[])+[element+1j]
                         initial = element
-        return self.all
-
+        return self.all 
     def __str__():
         # it should print x and y to form cascades
         return 'we are now using self.fill to get all activations'            
-   
+
+def poli(plant,garden, n):
+    # Auxiliar function
+    if n == 0:
+        garden.append(plant)
+    else:
+        temp = deepcopy(plant)
+        plant.gr()
+        temp.gl()
+        poli(plant, garden, n-1)
+        poli(temp, garden, n-1)
+
+def catalog(n=3):
+    # this returns a list of all plants with n external activations
+    pyramid = plants()
+    ext = n-3
+    garden = []
+    poli(pyramid, garden, ext)
+    return garden        
+    
+print('test with all plants on 5 vertex')
+assert len(catalog(5)) == 4
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
