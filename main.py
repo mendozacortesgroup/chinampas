@@ -19,6 +19,7 @@ class plants():
         self.top =  complex(2,2)  # auxiliary pointer
         self.h = 2  # height
         self.all = {}  # all activated
+        self.b = 0 # bottom
         
     def gl(self,degree = 0):
         # grafring left
@@ -36,7 +37,7 @@ class plants():
         # returns chinampa
         return self.chinampa
 
-    def digging(self,i=0):
+    def digging(self, i=0):
         # adds the i transformation
         keys = sorted(self.chinampa.keys())
         activations = self.chinampa[keys[0]]
@@ -48,13 +49,14 @@ class plants():
         activations.remove(root)
         old = self.chinampa.get(keys[0]-1,[])
         self.chinampa[keys[0]-1] = old + [root-1j,root-1-1j]
+        self.b = self.b - 1
 
     
     def fill(self):
         # creates a copy of external and returns all activations
         self.all = self.chinampa.copy()
         externals = self.all
-        for i in range(self.h):
+        for i in range(self.b, self.h):
             listOfExternals = externals.get(i,[])
             numberAtLeveli = len(listOfExternals)
             if numberAtLeveli:
