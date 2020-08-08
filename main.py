@@ -47,7 +47,7 @@ class plants():
 
         activations.remove(root)
         old = self.chinampa.get(keys[0]-1,[])
-        self.chinampa[keys[0]-1] = old + [root-1,root-1-1j]
+        self.chinampa[keys[0]-1] = old + [root-1j,root-1-1j]
 
     
     def fill(self):
@@ -93,7 +93,7 @@ def poli(plant,garden, n, digging = True):
 
 
 
-def catalog(n=3):
+def cost_Zero(n=3, printed = False):
     # this returns a list of all cascades with n external activations and cost 0
     pyramid = plants()
     ext = n-3
@@ -104,12 +104,14 @@ def catalog(n=3):
     poli(chinampa[0], garden, ext-1)
     poli(chinampa[1], garden, ext-1)
     poli(chinampa[2], garden, ext-1)
+    if printed:
+        [pprint.pprint(elem.fill(), indent=4, width=1) for elem in garden]
     return garden        
     
-first = catalog(4)
+first = cost_Zero(4, True)
 assert len(first) == 5
 print('test with all plants on 5 vertex passed')
-[pprint.pprint(elem.fill(),indent=4,width=1) for elem in first]
+#[pprint.pprint(elem.fill(),indent=4,width=1) for elem in first]
     
     
     
