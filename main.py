@@ -15,7 +15,7 @@ from scipy.special import comb
 def triplehandle(n):
     Handle = [(c-b-1)*(B-a-1)*(d-B-1) 
              for a in range(1,n-2) for b in range(a+1, n-1) for c in range(b+1, n)  for d in range(c+1, n+1) for B in range(b+1, c)]
-    com = comb(n, 4, exact=True)
+    com = comb(n, 5, exact=True)
     return n, com, sum(Handle), sum(Handle)/com, (n*n*n)  
 
 L_x = []
