@@ -11,58 +11,42 @@ Created on Sun Aug  2 16:29:07 2020
 from scipy.special import comb
 
 
+def doublehandleJoined(n):# a<B,B2<b<C,C2<c 
+    sol = [(b-a-1)**2*(c-b-1)**2 for a in range(1,n-3) for b in range(a+1, n-1) for c in range(b+1, n+1) ]
+    return  sum(sol)#, sum(sol)/n, sum(sol)/com, sum(sol)/sum(oneHandle),sum(sol)/(sum(oneHandle)*n),sum(sol)/(sum(oneHandle)*com),sum(sol)/(n*sum(oneHandle)*com)  
+
+
+
+
+def rplot(M):
+    dh = [doublehandleJoined(n) for n in range(5,M)]
+    N = [v for v in range(5,M)]
+        
+    cub = [doublehandleJoined(n)/(n*comb(n, 5, exact=True)) for n in range(5,M)]
+    print(f'points {N}\n  \n double joined handle {dh}')    
+    import matplotlib.pyplot as plt
+    
+    
+    plt.plot( N,cub, linewidth=2)
+    plt.xlabel(' n ')
+    plt.ylabel(f'O(double joined Handle))/n*comb ')
+    plt.title(f"O(duuble joined handle)/n*comb as a function of 'n' ")
+    plt.show()    
+    #plt.plot()
+rplot(40)
+
+### results double joined handle [1, 10, 53, 200, 606, 1572, 3630, 7656, 15015, 27742, 48763, 82160, 133484, 210120, 321708, 480624, 702525, 1006962, 1418065, 1965304, 2684330, 3617900, 4816890, 6341400, 8261955, 10660806, 13633335, 17289568, 21755800, 27176336, 33715352, 41558880, 50916921, 62025690, 75149997]
+
+    
+    
+def doublehandleSeparated(n):# a<b<c<d x<B<c b<C<d
+    sol = [d-A-1 for a in range(1,n-2) for b in range(a+1, n-1) for c in range(b+1, n) for A in range(a+1,c) for d in range(c+1,n+1) ]
+    return  sum(sol)#, sum(sol)/n, sum(sol)/com, sum(sol)/sum(oneHandle),sum(sol)/(sum(oneHandle)*n),sum(sol)/(sum(oneHandle)*com),sum(sol)/(n*sum(oneHandle)*com)  
 
 def triplehandle(n):
     Handle = [(c-b-1)*(B-a-1)*(d-B-1) 
              for a in range(1,n-2) for b in range(a+1, n-1) for c in range(b+1, n)  for d in range(c+1, n+1) for B in range(b+1, c)]
-    com = comb(n, 5, exact=True)
-    return n, com, sum(Handle), sum(Handle)/com, (n*n*n)  
-
-L_x = []
-L_c=[]
-L_y = []
-B=[]
-C=[]
-for i in range(5,20):
-    x,c,y,ccc,b = triplehandle(i)
-    L_x.append(x)
-    L_y.append(y)    
-    L_c.append(c)
-    B.append(b)
-    C.append(ccc)
-print(f'points {L_x}\n combinations {L_c} \n tripple handle {L_y}')    
-import matplotlib.pyplot as plt
-
-
-plt.plot(C, B, linewidth=2)
-plt.xlabel(' n^3 ')
-plt.ylabel('O(tripleHandle)/(O(line)) ')
-plt.title("O(tripleHandle)/O(line) as a function of 'n^3' ")
-plt.show()    
-    
-
-
-def doublehandle(n):
-    oneHandle = [1 for a in range(1,n-2) for b in range(a+1, n-1) for c in range(b+1, n) for A in range(a+1,c) for d in range(c+1,n+1) ]
-    sol = [d-A-1 for a in range(1,n-2) for b in range(a+1, n-1) for c in range(b+1, n) for A in range(a+1,c) for d in range(c+1,n+1) ]
-    com = comb(n, 4, exact=True)
-    return n, com, sum(oneHandle), sum(sol)#, sum(sol)/n, sum(sol)/com, sum(sol)/sum(oneHandle),sum(sol)/(sum(oneHandle)*n),sum(sol)/(sum(oneHandle)*com),sum(sol)/(n*sum(oneHandle)*com)  
-
-
-print('n (n choose 4) Yw1h Yw2h Yw2h/n Yw2h/(n choose 4) Yw2h/yw1h')
-Nl = []
-N4l = []
-soll = []
-for i in range(4,20):
-    N,N4,_,sol = doublehandle(i)
-    Nl.append(N)
-    N4l.append(N4)
-    soll.append(sol)
-
-
-    
-    
-    
+    return sum(Handle)    
     
     
     
