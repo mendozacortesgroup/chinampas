@@ -9,37 +9,57 @@ Created on Sun Aug  2 16:29:07 2020
  #The following program is not efficient   
  # it is mean to find the number of solutions to systemsw of equations
 from scipy.special import comb
+
+
+
+def triplehandle(n):
+    Handle = [(c-b-1)*(B-a-1)*(d-B-1) 
+             for a in range(1,n-2) for b in range(a+1, n-1) for c in range(b+1, n)  for d in range(c+1, n+1) for B in range(b+1, c)]
+    com = comb(n, 4, exact=True)
+    return n, com, sum(Handle), sum(Handle)/com, (n*n*n)  
+
+L_x = []
+L_c=[]
+L_y = []
+B=[]
+C=[]
+for i in range(5,20):
+    x,c,y,ccc,b = triplehandle(i)
+    L_x.append(x)
+    L_y.append(y)    
+    L_c.append(c)
+    B.append(b)
+    C.append(ccc)
+print(f'points {L_x}\n combinations {L_c} \n tripple handle {L_y}')    
+import matplotlib.pyplot as plt
+
+
+plt.plot(C, B, linewidth=2)
+plt.xlabel(' n^3 ')
+plt.ylabel('O(tripleHandle)/(O(line)) ')
+plt.title("O(tripleHandle)/O(line) as a function of 'n^3' ")
+plt.show()    
+    
+
+
 def doublehandle(n):
     oneHandle = [1 for a in range(1,n-2) for b in range(a+1, n-1) for c in range(b+1, n) for A in range(a+1,c) for d in range(c+1,n+1) ]
     sol = [d-A-1 for a in range(1,n-2) for b in range(a+1, n-1) for c in range(b+1, n) for A in range(a+1,c) for d in range(c+1,n+1) ]
     com = comb(n, 4, exact=True)
-    return n, com, sum(oneHandle), sum(sol), sum(sol)/n, sum(sol)/com, sum(sol)/sum(oneHandle),sum(sol)/(sum(oneHandle)*n),sum(sol)/(sum(oneHandle)*com),sum(sol)/(n*sum(oneHandle)*com)  
+    return n, com, sum(oneHandle), sum(sol)#, sum(sol)/n, sum(sol)/com, sum(sol)/sum(oneHandle),sum(sol)/(sum(oneHandle)*n),sum(sol)/(sum(oneHandle)*com),sum(sol)/(n*sum(oneHandle)*com)  
 
 
 print('n (n choose 4) Yw1h Yw2h Yw2h/n Yw2h/(n choose 4) Yw2h/yw1h')
-for i in range(4,10):
-    print(doublehandle(i))
+Nl = []
+N4l = []
+soll = []
+for i in range(4,20):
+    N,N4,_,sol = doublehandle(i)
+    Nl.append(N)
+    N4l.append(N4)
+    soll.append(sol)
 
 
-import numpy as np
-import matplotlib.pyplot as plt
-
-from sklearn.linear_model import Ridge
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.pipeline import make_pipeline
-
-
-
-           
-import matplotlib.pyplot as plt
-
-plt.plot([4,5,6,7,8,9], [1/1,10/5,50/15,175/35,490/70,1176/126], linewidth=2)
-plt.xlabel(' n ')
-plt.ylabel('O(doubleHandle)/O(line) ')
-plt.title("O(doubleHandle)/O(line) as a function of 'n' ")
-plt.show()    
-    
-    
     
     
     
