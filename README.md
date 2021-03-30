@@ -12,4 +12,4 @@ Zooming in, we see a model of neural activations, or cellular automata following
 ![standart](https://user-images.githubusercontent.com/18435221/112927159-8c8d2100-90e2-11eb-93a0-69e93edf529b.png)
 
 
-We also added [a pdf](R7.pdf)  with our calculations to determine the generating series of the triangular sequence R7.
+We also added [a pdf](R7.pdf) and the mathematica [code](Computation of R7.nb) with our calculations to determine the generating series of the triangular sequence R7.
