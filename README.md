@@ -1,6 +1,9 @@
 # chinampas
 Code for the paper https://arxiv.org/abs/2103.15265
 
+A Jupyter notebook explain the paper is located at  [Notebook](Chinampas.ipynb).
+
+
 Here we add a [python program](main.py) to find those chinampas of profit 0.
 
 A chinampa of arbitrary profit looks like the figure below.
