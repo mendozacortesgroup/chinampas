@@ -1,7 +1,7 @@
 # chinampas
 Code for the paper https://arxiv.org/abs/2103.15265
 
-A Jupyter notebook explain the paper is located at  [Notebook](Chinampas.ipynb).
+A Jupyter notebook explaining the paper is located at  [Notebook](Chinampas.ipynb). A Mathematica notebook explaining the calculations is located at [mathematica notebook](Introduction.nb) (or the pdf [introduction](introduction.pdf) ). 
 
 
 Here we add a [python program](main.py) to find those chinampas of profit 0.
