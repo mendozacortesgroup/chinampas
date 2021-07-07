@@ -10,16 +10,31 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    915233,      20453]
-NotebookOptionsPosition[    909058,      20341]
-NotebookOutlinePosition[    909593,      20360]
-CellTagsIndexPosition[    909550,      20357]
+NotebookDataLength[    915870,      20471]
+NotebookOptionsPosition[    909524,      20357]
+NotebookOutlinePosition[    910068,      20376]
+CellTagsIndexPosition[    910025,      20373]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell[TextData[{
+ StyleBox["Polychrony as Chinampas. ", "Title"],
+ "\n\[LineSeparator]"
+}], "Text",
+ CellChangeTimes->{{3.8346863696920567`*^9, 3.8346864184426203`*^9}, {
+  3.8346865297148094`*^9, 
+  3.8346865390525856`*^9}},ExpressionUUID->"299de318-66f3-4f91-ba23-\
+073238929a23"],
+
+Cell["First read Introduction.nb.", "Text",
+ CellChangeTimes->{{3.8346862560085564`*^9, 3.8346862596259384`*^9}, {
+  3.834686544090376*^9, 
+  3.8346865555443196`*^9}},ExpressionUUID->"aa356558-9b6d-4040-a420-\
+35694f15c66f"],
 
 Cell[CellGroupData[{
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{
@@ -75,9 +90,10 @@ Cell[BoxData[{
     RowBox[{"k", ",", 
      RowBox[{"j", "+", "1"}], ",", "n"}], "}"}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.820312087174676*^9, 3.8203120897088313`*^9}, {
-  3.820495968181464*^9, 3.820495974661993*^9}, {3.821275425367968*^9, 
-  3.8212754290749683`*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"8e9a8d95-4def-4467-9c7e-e6e378d1048f"],
+   3.820495968181464*^9, 3.820495974661993*^9}, {3.821275425367968*^9, 
+   3.8212754290749683`*^9}, 
+   3.834686209879573*^9},ExpressionUUID->"8e9a8d95-4def-4467-9c7e-\
+e6e378d1048f"],
 
 Cell[BoxData[
  RowBox[{
@@ -5427,7 +5443,7 @@ f(x),x],x])/2615348736000", Typeset`chosen$$ =
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -5441,7 +5457,7 @@ f(x),x],x])/2615348736000", Typeset`chosen$$ =
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -5940,7 +5956,7 @@ f(x),x],x],x],x])/2615348736000", Typeset`chosen$$ =
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -5954,7 +5970,7 @@ f(x),x],x],x],x])/2615348736000", Typeset`chosen$$ =
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -6748,7 +6764,7 @@ x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -6762,7 +6778,7 @@ x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -8975,7 +8991,7 @@ x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -8989,7 +9005,7 @@ x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -12365,7 +12381,7 @@ x], x], x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -12379,7 +12395,7 @@ x], x], x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -13002,7 +13018,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -13033,7 +13049,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -13070,7 +13086,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -13107,7 +13123,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -13144,7 +13160,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -13244,7 +13260,7 @@ x], x], x], x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -13258,7 +13274,7 @@ x], x], x], x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -13901,7 +13917,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -13932,7 +13948,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -13969,7 +13985,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -14006,7 +14022,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -14043,7 +14059,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -14143,7 +14159,7 @@ x], x], x], x], x], x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -14157,7 +14173,7 @@ x], x], x], x], x], x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -14836,7 +14852,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -14867,7 +14883,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -14904,7 +14920,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -14941,7 +14957,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -14978,7 +14994,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -15078,7 +15094,7 @@ x], x], x], x], x], x], x], x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -15092,7 +15108,7 @@ x], x], x], x], x], x], x], x])/2615348736000", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -15778,7 +15794,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -15809,7 +15825,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -15846,7 +15862,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -15883,7 +15899,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -15920,7 +15936,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -16020,7 +16036,7 @@ x], x], x], x], x]", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -16034,7 +16050,7 @@ x], x], x], x], x]", Typeset`open$$ = False},
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -16812,7 +16828,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -16843,7 +16859,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -16880,7 +16896,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -16918,7 +16934,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -16955,7 +16971,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -17173,7 +17189,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -17204,7 +17220,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -17241,7 +17257,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -17278,7 +17294,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -17315,7 +17331,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -17413,7 +17429,7 @@ Cell[BoxData[
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -17427,7 +17443,7 @@ Cell[BoxData[
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -17451,7 +17467,7 @@ Cell[BoxData[
                    "TextForm"], All], Typeset`open$$ = True; 
                 WolframAlphaClient`Private`extrudeFromFastParse[
                  "(15755*x*D[x*D[%18,x],x])/2615348736000", 
-                  Defer[(15755 $CellContext`x D[$CellContext`x D[
+                  Defer[((15755 $CellContext`x) D[$CellContext`x D[
                     Out[18], $CellContext`x], $CellContext`x])/2615348736000],
                    "Fast parse"]; Typeset`open$$ = False]),
              Evaluator->Automatic,
@@ -17619,7 +17635,7 @@ Cell[BoxData[
                     "TextForm"], All], Typeset`open$$ = True; 
                     WolframAlphaClient`Private`extrudeFromFastParse[
                     "(15755*x*D[x*D[%18,x],x])/2615348736000", 
-                    Defer[(15755 $CellContext`x D[$CellContext`x D[
+                    Defer[((15755 $CellContext`x) D[$CellContext`x D[
                     Out[18], $CellContext`x], $CellContext`x])/2615348736000],
                      "Fast parse"]; Typeset`open$$ = False]),
                  Evaluator->Automatic,
@@ -17762,42 +17778,42 @@ Cell[BoxData[
       {
        ItemBox[
         TagBox[
-         FractionBox[
-          RowBox[{"3151", " ", "x", " ", 
-           RowBox[{"(", 
-            RowBox[{
-             FractionBox[
-              RowBox[{"13", " ", 
-               SuperscriptBox["x", "12"]}], 
-              SuperscriptBox[
-               RowBox[{"(", 
-                RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
-             TemplateBox[{"12"},
-              "OutputSizeLimit`Skeleton"], "+", 
-             RowBox[{"x", " ", 
+         RowBox[{
+          FractionBox["1", "523069747200"], "3151", " ", "x", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            FractionBox[
+             RowBox[{"13", " ", 
+              SuperscriptBox["x", "12"]}], 
+             SuperscriptBox[
               RowBox[{"(", 
-               RowBox[{
-                FractionBox[
-                 RowBox[{"319488", " ", 
-                  SuperscriptBox["x", "11"]}], 
-                 SuperscriptBox[
-                  RowBox[{"(", 
-                   RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
-                TemplateBox[{"12"},
-                 "OutputSizeLimit`Skeleton"], "+", 
-                RowBox[{"x", " ", 
+               RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
+            TemplateBox[{"12"},
+             "OutputSizeLimit`Skeleton"], "+", 
+            RowBox[{"x", " ", 
+             RowBox[{"(", 
+              RowBox[{
+               FractionBox[
+                RowBox[{"319488", " ", 
+                 SuperscriptBox["x", "11"]}], 
+                SuperscriptBox[
                  RowBox[{"(", 
-                  RowBox[{
-                   FractionBox[
-                    RowBox[{"3512652", " ", 
+                  RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
+               TemplateBox[{"12"},
+                "OutputSizeLimit`Skeleton"], "+", 
+               RowBox[{"x", " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  FractionBox[
+                   RowBox[{"3512652", " ", 
                     SuperscriptBox["x", "10"]}], 
-                    SuperscriptBox[
+                   SuperscriptBox[
                     RowBox[{"(", 
                     RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
-                   TemplateBox[{"21"},
-                    "OutputSizeLimit`Skeleton"], "+", 
-                   RowBox[{"x", " ", 
-                    RowBox[{"(", 
+                  TemplateBox[{"21"},
+                   "OutputSizeLimit`Skeleton"], "+", 
+                  RowBox[{"x", " ", 
+                   RowBox[{"(", 
                     RowBox[{
                     FractionBox[
                     RowBox[{"34937760", " ", 
@@ -17876,7 +17892,7 @@ Cell[BoxData[
                     TemplateBox[{"1"},
                     "OutputSizeLimit`Skeleton"]}]}], ")"}]}]}], ")"}]}]}], 
                     ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}]}]}], 
-               ")"}]}]}], ")"}]}], "523069747200"],
+              ")"}]}]}], ")"}]}],
          Short[#, 5]& ],
         BaseStyle->{Deployed -> False},
         StripOnInput->False]},
@@ -17890,7 +17906,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -17921,7 +17937,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -17958,7 +17974,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -17996,7 +18012,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -18034,7 +18050,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -18132,7 +18148,7 @@ Cell[BoxData[
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -18146,7 +18162,7 @@ Cell[BoxData[
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -18171,7 +18187,7 @@ Cell[BoxData[
                 WolframAlphaClient`Private`extrudeFromFastParse[
                  "(-450*x*D[x*D[x*D[%18,x],x],x])/2615348736000", 
                   
-                  Defer[((-450) $CellContext`x 
+                  Defer[(((-450) $CellContext`x) 
                     D[$CellContext`x D[$CellContext`x D[
                     Out[
                     18], $CellContext`x], $CellContext`x], $CellContext`x])/
@@ -18356,7 +18372,7 @@ Cell[BoxData[
                     WolframAlphaClient`Private`extrudeFromFastParse[
                     "(-450*x*D[x*D[x*D[%18,x],x],x])/2615348736000", 
                     
-                    Defer[((-450) $CellContext`x 
+                    Defer[(((-450) $CellContext`x) 
                     D[$CellContext`x D[$CellContext`x D[
                     Out[
                     18], $CellContext`x], $CellContext`x], $CellContext`x])/
@@ -18645,7 +18661,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -18676,7 +18692,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -18713,7 +18729,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -18750,7 +18766,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -18787,7 +18803,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -18885,7 +18901,7 @@ Cell[BoxData[
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "OrangeSquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -18899,7 +18915,7 @@ Cell[BoxData[
                 
                 DynamicBox[FEPrivate`FrontEndResource[
                  "WABitmaps", "GraySquarePlus"],
-                 ImageSizeCache->{7.5, {3., 5.25}}],
+                 ImageSizeCache->{8.25, {3., 5.25}}],
                 DynamicBox[
                  ToBoxes[
                   FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
@@ -18924,7 +18940,7 @@ Cell[BoxData[
                 WolframAlphaClient`Private`extrudeFromFastParse[
                  "(6*x*D[x*D[x*D[x*D[%18,x],x],x],x])/2615348736000", 
                   
-                  Defer[(6 $CellContext`x 
+                  Defer[((6 $CellContext`x) 
                     D[$CellContext`x D[$CellContext`x D[$CellContext`x D[
                     Out[
                     18], $CellContext`x], $CellContext`x], $CellContext`x], \
@@ -19116,7 +19132,7 @@ $CellContext`x])/2615348736000], "Fast parse"]; Typeset`open$$ = False]),
                     WolframAlphaClient`Private`extrudeFromFastParse[
                     "(6*x*D[x*D[x*D[x*D[%18,x],x],x],x])/2615348736000", 
                     
-                    Defer[(6 $CellContext`x 
+                    Defer[((6 $CellContext`x) 
                     D[$CellContext`x D[$CellContext`x D[$CellContext`x D[
                     Out[
                     18], $CellContext`x], $CellContext`x], $CellContext`x], \
@@ -19411,7 +19427,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -19442,7 +19458,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -19453,7 +19469,8 @@ Cell[BoxData[
              StyleBox[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
-                StandardForm]],
+                StandardForm],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -19479,7 +19496,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -19516,7 +19533,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -19553,7 +19570,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -19780,51 +19797,50 @@ Cell[BoxData[
                  "OutputSizeLimit`Skeleton"], ")"}]}]}], ")"}]}], 
            "5811886080"], "+", 
           RowBox[{
-           FractionBox["1", "435891456000"], 
-           RowBox[{"x", " ", 
-            RowBox[{"(", 
-             RowBox[{
-              FractionBox[
-               RowBox[{"13", " ", 
-                SuperscriptBox["x", "12"]}], 
-               SuperscriptBox[
-                RowBox[{"(", 
-                 RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
-              FractionBox[
-               RowBox[{"14", " ", 
-                SuperscriptBox["x", "13"]}], 
-               SuperscriptBox[
-                TemplateBox[{"1"},
-                 "OutputSizeLimit`Skeleton"], "15"]], "+", 
-              TemplateBox[{"12"},
-               "OutputSizeLimit`Skeleton"], "+", 
-              RowBox[{"x", " ", 
+           FractionBox["1", "435891456000"], "x", " ", 
+           RowBox[{"(", 
+            RowBox[{
+             FractionBox[
+              RowBox[{"13", " ", 
+               SuperscriptBox["x", "12"]}], 
+              SuperscriptBox[
                RowBox[{"(", 
-                TemplateBox[{"1"},
-                 "OutputSizeLimit`Skeleton"], ")"}]}], "+", 
-              RowBox[{"x", " ", 
-               RowBox[{"(", 
-                RowBox[{
-                 FractionBox[
-                  RowBox[{"1277952", " ", 
-                   SuperscriptBox["x", "11"]}], 
-                  SuperscriptBox[
-                   RowBox[{"(", 
-                    RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
-                 TemplateBox[{"14"},
-                  "OutputSizeLimit`Skeleton"], "+", 
-                 RowBox[{"x", " ", 
+                RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
+             FractionBox[
+              RowBox[{"14", " ", 
+               SuperscriptBox["x", "13"]}], 
+              SuperscriptBox[
+               TemplateBox[{"1"},
+                "OutputSizeLimit`Skeleton"], "15"]], "+", 
+             TemplateBox[{"12"},
+              "OutputSizeLimit`Skeleton"], "+", 
+             RowBox[{"x", " ", 
+              RowBox[{"(", 
+               TemplateBox[{"1"},
+                "OutputSizeLimit`Skeleton"], ")"}]}], "+", 
+             RowBox[{"x", " ", 
+              RowBox[{"(", 
+               RowBox[{
+                FractionBox[
+                 RowBox[{"1277952", " ", 
+                  SuperscriptBox["x", "11"]}], 
+                 SuperscriptBox[
                   RowBox[{"(", 
-                   RowBox[{
-                    FractionBox[
+                   RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
+                TemplateBox[{"14"},
+                 "OutputSizeLimit`Skeleton"], "+", 
+                RowBox[{"x", " ", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox[
                     RowBox[{"14055756", " ", 
                     SuperscriptBox["x", "10"]}], 
                     SuperscriptBox[
                     RowBox[{"(", 
                     RowBox[{"1", "-", "x"}], ")"}], "14"]], "+", 
-                    TemplateBox[{"25"},
+                   TemplateBox[{"25"},
                     "OutputSizeLimit`Skeleton"], "+", 
-                    RowBox[{"x", " ", 
+                   RowBox[{"x", " ", 
                     RowBox[{"(", 
                     RowBox[{
                     FractionBox[
@@ -19872,7 +19888,7 @@ Cell[BoxData[
                     RowBox[{"x", " ", 
                     TemplateBox[{"1"},
                     "OutputSizeLimit`Skeleton"]}]}], ")"}]}]}], ")"}]}]}], 
-                    ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}]}]}]}],
+                    ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}]}]}], ")"}]}]}],
          Short[#, 5]& ],
         BaseStyle->{Deployed -> False},
         StripOnInput->False]},
@@ -19886,7 +19902,7 @@ Cell[BoxData[
                DynamicBox[ToBoxes[
                  FEPrivate`FrontEndResource[
                  "FEStrings", "sizeBriefExplanation"], StandardForm],
-                ImageSizeCache->{36.75, {2., 6.}}],
+                ImageSizeCache->{39., {2., 5.}}],
                StripOnInput->False,
                DynamicUpdating->True,
                LineSpacing->{1, 2},
@@ -19917,7 +19933,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
                 StandardForm],
-               ImageSizeCache->{30., {1., 6.}}],
+               ImageSizeCache->{30., {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -19954,7 +19970,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
                 StandardForm],
-               ImageSizeCache->{34.875, {1., 6.}}],
+               ImageSizeCache->{34.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -19992,7 +20008,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
                 StandardForm],
-               ImageSizeCache->{25.875, {1., 6.}}],
+               ImageSizeCache->{25.8, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -20029,7 +20045,7 @@ Cell[BoxData[
               DynamicBox[ToBoxes[
                 FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
                 StandardForm],
-               ImageSizeCache->{45., {1., 6.}}],
+               ImageSizeCache->{43.2, {1., 5.}}],
               StripOnInput->False,
               DynamicUpdating->True,
               LineSpacing->{1, 2},
@@ -20339,14 +20355,14 @@ Cell[BoxData[
  CellLabel->"Out[55]=",ExpressionUUID->"b07a6045-04ce-4d9f-bcea-bfefc28f813a"]
 }, Open  ]]
 },
-WindowSize->{1026., 622.5},
-WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
+WindowSize->{1026., 609.6},
+WindowMargins->{{28.799999999999997`, Automatic}, {Automatic, 57}},
 TaggingRules->{
  "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
 Magnification:>0.75 Inherited,
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"141ef424-7a98-40c3-80d5-79683c5ac123"
+ExpressionUUID->"cf59bacf-8b0d-4d85-b44a-dfeafe7f94af"
 ]
 (* End of Notebook Content *)
 
@@ -20359,101 +20375,103 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 281, 7, 87, "Text",ExpressionUUID->"299de318-66f3-4f91-ba23-073238929a23"],
+Cell[842, 29, 224, 4, 26, "Text",ExpressionUUID->"aa356558-9b6d-4040-a420-35694f15c66f"],
 Cell[CellGroupData[{
-Cell[580, 22, 1891, 57, 66, "Input",ExpressionUUID->"8e9a8d95-4def-4467-9c7e-e6e378d1048f"],
-Cell[2474, 81, 984, 26, 26, "Output",ExpressionUUID->"21c5cf3c-f0f4-4e36-85c5-2b976af35976"]
+Cell[1091, 37, 1898, 58, 65, "Input",ExpressionUUID->"8e9a8d95-4def-4467-9c7e-e6e378d1048f"],
+Cell[2992, 97, 984, 26, 26, "Output",ExpressionUUID->"21c5cf3c-f0f4-4e36-85c5-2b976af35976"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3495, 112, 968, 28, 23, "Input",ExpressionUUID->"5edb07a6-aabc-4787-95b0-a33ed4babf9d"],
-Cell[4466, 142, 1038, 35, 38, "Output",ExpressionUUID->"bdf47ed2-3fdf-488e-9003-60a96b979018"]
+Cell[4013, 128, 968, 28, 23, "Input",ExpressionUUID->"5edb07a6-aabc-4787-95b0-a33ed4babf9d"],
+Cell[4984, 158, 1038, 35, 38, "Output",ExpressionUUID->"bdf47ed2-3fdf-488e-9003-60a96b979018"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5541, 182, 147538, 2423, 42, "Input",ExpressionUUID->"74cda4fe-fac3-4d71-b0e5-f7c2dc8f7795"],
-Cell[153082, 2607, 147594, 2424, 144, "Output",ExpressionUUID->"a299d258-ab25-49d2-a842-82d913b50a13"]
+Cell[6059, 198, 147538, 2423, 42, "Input",ExpressionUUID->"74cda4fe-fac3-4d71-b0e5-f7c2dc8f7795"],
+Cell[153600, 2623, 147594, 2424, 144, "Output",ExpressionUUID->"a299d258-ab25-49d2-a842-82d913b50a13"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[300713, 5036, 3142, 97, 51, "Input",ExpressionUUID->"e27ff049-0af2-4972-bd80-02615fa43f17"],
-Cell[303858, 5135, 2245, 59, 72, "Output",ExpressionUUID->"c6901891-9e9b-4531-89b2-616517be567e"]
+Cell[301231, 5052, 3142, 97, 50, "Input",ExpressionUUID->"e27ff049-0af2-4972-bd80-02615fa43f17"],
+Cell[304376, 5151, 2245, 59, 71, "Output",ExpressionUUID->"c6901891-9e9b-4531-89b2-616517be567e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[306140, 5199, 165, 3, 21, "Input",ExpressionUUID->"34dd636c-e01b-46d6-a0eb-bec0cce6a976"],
-Cell[306308, 5204, 1566, 54, 39, "Output",ExpressionUUID->"dac42884-67b7-4c27-bebf-e665cc4671e7"]
+Cell[306658, 5215, 165, 3, 21, "Input",ExpressionUUID->"34dd636c-e01b-46d6-a0eb-bec0cce6a976"],
+Cell[306826, 5220, 1566, 54, 40, "Output",ExpressionUUID->"dac42884-67b7-4c27-bebf-e665cc4671e7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[307911, 5263, 216, 4, 21, "Input",ExpressionUUID->"c8c2df30-da68-4e8b-adaa-a8fbe332034c"],
-Cell[308130, 5269, 1197, 41, 39, "Output",ExpressionUUID->"f3a1271a-d1e9-461a-9a84-7b9794430b26"]
+Cell[308429, 5279, 216, 4, 21, "Input",ExpressionUUID->"c8c2df30-da68-4e8b-adaa-a8fbe332034c"],
+Cell[308648, 5285, 1197, 41, 40, "Output",ExpressionUUID->"f3a1271a-d1e9-461a-9a84-7b9794430b26"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[309364, 5315, 1244, 42, 23, InheritFromParent,ExpressionUUID->"9ccb6411-c815-4a93-b846-3ee3fda258b3"],
-Cell[310611, 5359, 1158, 33, 39, "Output",ExpressionUUID->"5c4d6ba3-3e71-4adb-8ef3-f96b52bca475"]
+Cell[309882, 5331, 1244, 42, 23, "Input",ExpressionUUID->"9ccb6411-c815-4a93-b846-3ee3fda258b3"],
+Cell[311129, 5375, 1158, 33, 39, "Output",ExpressionUUID->"5c4d6ba3-3e71-4adb-8ef3-f96b52bca475"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[311806, 5397, 18964, 442, 65, "Input",ExpressionUUID->"286a3275-24d5-4264-a5df-cf58beaca979"],
-Cell[330773, 5841, 1981, 63, 48, "Output",ExpressionUUID->"be7d7905-a54f-4876-b193-8046ca5ffa23"]
+Cell[312324, 5413, 18966, 442, 64, "Input",ExpressionUUID->"286a3275-24d5-4264-a5df-cf58beaca979"],
+Cell[331293, 5857, 1981, 63, 51, "Output",ExpressionUUID->"be7d7905-a54f-4876-b193-8046ca5ffa23"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[332791, 5909, 21748, 514, 65, InheritFromParent,ExpressionUUID->"3cf1ddd8-588a-465c-b339-b23fc4915d3b"],
-Cell[354542, 6425, 10052, 285, 144, "Output",ExpressionUUID->"17573103-4450-4109-bfa6-2dc463268796"]
+Cell[333311, 5925, 21750, 514, 64, "Input",ExpressionUUID->"3cf1ddd8-588a-465c-b339-b23fc4915d3b"],
+Cell[355064, 6441, 10052, 285, 142, "Output",ExpressionUUID->"17573103-4450-4109-bfa6-2dc463268796"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[364631, 6715, 25670, 609, 66, "WolframAlphaShortInput",ExpressionUUID->"8365986c-5639-438f-97b7-e3366abe7401"],
-Cell[390304, 7326, 62827, 1614, 815, "Output",ExpressionUUID->"abff97a4-0f2b-4cf5-ba5f-95d8ea8e700c"]
+Cell[365153, 6731, 25672, 609, 65, "WolframAlphaShortInput",ExpressionUUID->"8365986c-5639-438f-97b7-e3366abe7401"],
+Cell[390828, 7342, 62827, 1614, 779, "Output",ExpressionUUID->"abff97a4-0f2b-4cf5-ba5f-95d8ea8e700c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[453168, 8945, 20763, 500, 66, "WolframAlphaShortInput",ExpressionUUID->"2e316e13-064e-4b68-97c5-56c84bf093df"],
-Cell[473934, 9447, 113263, 2883, 1415, "Output",ExpressionUUID->"65ac4997-b024-4299-b867-825dad1c3a0f"]
+Cell[453692, 8961, 20765, 500, 65, "WolframAlphaShortInput",ExpressionUUID->"2e316e13-064e-4b68-97c5-56c84bf093df"],
+Cell[474460, 9463, 113263, 2883, 1440, "Output",ExpressionUUID->"65ac4997-b024-4299-b867-825dad1c3a0f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[587234, 12335, 21944, 527, 66, "WolframAlphaShortInput",ExpressionUUID->"2a867ba3-9f32-4b4e-8de5-e71f94e4021f"],
-Cell[609181, 12864, 13650, 345, 116, "Output",ExpressionUUID->"3914a6ee-d7c9-4754-8b94-8fddbd70f7ef"]
+Cell[587760, 12351, 21946, 527, 65, "WolframAlphaShortInput",ExpressionUUID->"2a867ba3-9f32-4b4e-8de5-e71f94e4021f"],
+Cell[609709, 12880, 13645, 345, 144, "Output",ExpressionUUID->"3914a6ee-d7c9-4754-8b94-8fddbd70f7ef"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[622868, 13214, 22754, 546, 66, "WolframAlphaShortInput",ExpressionUUID->"162cc363-f764-43cc-8cc1-58be7e5aca5f"],
-Cell[645625, 13762, 13676, 346, 140, "Output",ExpressionUUID->"78121b9c-ca49-4388-b2c4-175693a6b96d"]
+Cell[623391, 13230, 22756, 546, 65, "WolframAlphaShortInput",ExpressionUUID->"162cc363-f764-43cc-8cc1-58be7e5aca5f"],
+Cell[646150, 13778, 13671, 346, 148, "Output",ExpressionUUID->"78121b9c-ca49-4388-b2c4-175693a6b96d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[659338, 14113, 23903, 573, 66, "WolframAlphaShortInput",ExpressionUUID->"1a034d72-ff0c-469d-a49d-332aba50d64a"],
-Cell[683244, 14688, 13980, 355, 140, "Output",ExpressionUUID->"2b149287-d0b6-457b-a637-b8c12a2178c5"]
+Cell[659858, 14129, 23905, 573, 65, "WolframAlphaShortInput",ExpressionUUID->"1a034d72-ff0c-469d-a49d-332aba50d64a"],
+Cell[683766, 14704, 13975, 355, 144, "Output",ExpressionUUID->"2b149287-d0b6-457b-a637-b8c12a2178c5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[697261, 15048, 24781, 595, 66, "WolframAlphaShortInput",ExpressionUUID->"93b3ae89-5884-492d-a995-462160de6bf8"],
-Cell[722045, 15645, 13454, 340, 140, "Output",ExpressionUUID->"2b9bb604-11a6-471d-9846-5d3ad8feee33"]
+Cell[697778, 15064, 24783, 595, 65, "WolframAlphaShortInput",ExpressionUUID->"93b3ae89-5884-492d-a995-462160de6bf8"],
+Cell[722564, 15661, 13449, 340, 144, "Output",ExpressionUUID->"2b9bb604-11a6-471d-9846-5d3ad8feee33"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[735536, 15990, 23767, 575, 66, "WolframAlphaShortInput",ExpressionUUID->"9d84fe08-7f6e-47c7-9d98-bb66313f7377"],
-Cell[759306, 16567, 18525, 454, 193, "Output",ExpressionUUID->"3f1b6539-196c-4cd7-bc99-0f410afdb4af"]
+Cell[736050, 16006, 23769, 575, 65, "WolframAlphaShortInput",ExpressionUUID->"9d84fe08-7f6e-47c7-9d98-bb66313f7377"],
+Cell[759822, 16583, 18520, 454, 212, "Output",ExpressionUUID->"3f1b6539-196c-4cd7-bc99-0f410afdb4af"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[777868, 17026, 409, 10, 21, "Input",ExpressionUUID->"56ee8394-8182-4d05-9e59-eb9a85f45a17"],
-Cell[778280, 17038, 13598, 343, 140, "Output",ExpressionUUID->"20e06228-6e02-4bb3-b917-417d4782aa3f"]
+Cell[778379, 17042, 409, 10, 21, "Input",ExpressionUUID->"56ee8394-8182-4d05-9e59-eb9a85f45a17"],
+Cell[778791, 17054, 13593, 343, 144, "Output",ExpressionUUID->"20e06228-6e02-4bb3-b917-417d4782aa3f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[791915, 17386, 15296, 369, 53, "WolframAlphaShortInput",ExpressionUUID->"2a6d20bf-13e6-47b1-b71a-e3580c31c617"],
-Cell[807214, 17757, 13592, 342, 99, "Output",ExpressionUUID->"6ae31061-5538-494e-b4fc-3a2c1c42116a"]
+Cell[792421, 17402, 15302, 369, 52, "WolframAlphaShortInput",ExpressionUUID->"2a6d20bf-13e6-47b1-b71a-e3580c31c617"],
+Cell[807726, 17773, 13560, 342, 144, "Output",ExpressionUUID->"6ae31061-5538-494e-b4fc-3a2c1c42116a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[820843, 18104, 16612, 404, 53, "WolframAlphaShortInput",ExpressionUUID->"6b4be137-ed8e-40da-b60b-8052b7481a12"],
-Cell[837458, 18510, 13511, 342, 140, "Output",ExpressionUUID->"b1522b8b-98a8-463c-9730-079498304fc0"]
+Cell[821323, 18120, 16618, 404, 52, "WolframAlphaShortInput",ExpressionUUID->"6b4be137-ed8e-40da-b60b-8052b7481a12"],
+Cell[837944, 18526, 13506, 342, 144, "Output",ExpressionUUID->"b1522b8b-98a8-463c-9730-079498304fc0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[851006, 18857, 17266, 418, 53, "WolframAlphaShortInput",ExpressionUUID->"55a67233-61e7-4c4d-a79f-4576dd320304"],
-Cell[868275, 19277, 13499, 341, 140, "Output",ExpressionUUID->"461e3728-c8e9-4125-8bc1-0fdca8f208de"]
+Cell[851487, 18873, 17272, 418, 52, "WolframAlphaShortInput",ExpressionUUID->"55a67233-61e7-4c4d-a79f-4576dd320304"],
+Cell[868762, 19293, 13542, 342, 148, "Output",ExpressionUUID->"461e3728-c8e9-4125-8bc1-0fdca8f208de"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[881811, 19623, 480, 7, 21, "Input",ExpressionUUID->"6a1a5dd0-6826-4d1a-bba7-de0afd5aff5b"],
-Cell[882294, 19632, 18262, 463, 197, "Output",ExpressionUUID->"5287c6b9-f0b3-4f44-b3c3-54bb85d2cd4c"]
+Cell[882341, 19640, 480, 7, 21, "Input",ExpressionUUID->"6a1a5dd0-6826-4d1a-bba7-de0afd5aff5b"],
+Cell[882824, 19649, 18198, 462, 216, "Output",ExpressionUUID->"5287c6b9-f0b3-4f44-b3c3-54bb85d2cd4c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[900593, 20100, 368, 5, 21, "Input",ExpressionUUID->"2ee0c915-fd90-4c9a-82c7-fb62ba0ee277"],
-Cell[900964, 20107, 2274, 60, 57, "Output",ExpressionUUID->"8794121b-74c2-4ff1-87e5-4780903a2d95"]
+Cell[901059, 20116, 368, 5, 21, "Input",ExpressionUUID->"2ee0c915-fd90-4c9a-82c7-fb62ba0ee277"],
+Cell[901430, 20123, 2274, 60, 56, "Output",ExpressionUUID->"8794121b-74c2-4ff1-87e5-4780903a2d95"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[903275, 20172, 1939, 52, 23, "Input",ExpressionUUID->"f4c56178-7d52-41a1-8932-1a8ed0e05443"],
-Cell[905217, 20226, 1133, 33, 24, "Output",ExpressionUUID->"924d1dbd-0c17-4595-b73c-c5162d7937aa"]
+Cell[903741, 20188, 1939, 52, 23, "Input",ExpressionUUID->"f4c56178-7d52-41a1-8932-1a8ed0e05443"],
+Cell[905683, 20242, 1133, 33, 24, "Output",ExpressionUUID->"924d1dbd-0c17-4595-b73c-c5162d7937aa"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[906387, 20264, 1657, 45, 40, "Input",ExpressionUUID->"25386d56-26d6-4200-9308-369537b0e7e1"],
-Cell[908047, 20311, 995, 27, 24, "Output",ExpressionUUID->"b07a6045-04ce-4d9f-bcea-bfefc28f813a"]
+Cell[906853, 20280, 1657, 45, 40, "Input",ExpressionUUID->"25386d56-26d6-4200-9308-369537b0e7e1"],
+Cell[908513, 20327, 995, 27, 24, "Output",ExpressionUUID->"b07a6045-04ce-4d9f-bcea-bfefc28f813a"]
 }, Open  ]]
 }
 ]
