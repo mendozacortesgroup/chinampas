@@ -24,5 +24,5 @@ We wrote a function that answers this questions efficiently.
 
 Here is a [python program](main.py) to find those chinampas of profit 0.
 
-###Funding 
+### Funding 
 This project has received funding from the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2020R1C1C1A0100826).
