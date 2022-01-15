@@ -36,6 +36,7 @@ print(f"list of pyramids in the chinampa: {[(pyramid.lP,pyramid.rP,pyramid.time)
 ```
 For chinampas in a tree:
 
+
 ```python
 from chinampas import chinampa as ch
 tree = ch.Tree_Chinampa(0,{0:{'activations':[[4,0],[5,0]],'branches':[1,2]},
@@ -45,6 +46,8 @@ tree = ch.Tree_Chinampa(0,{0:{'activations':[[4,0],[5,0]],'branches':[1,2]},
                        )
 tree.will_vertex_be_activated(4,3) #The node index is global i.e, node 0 is in branch 1, node 2 in branch 2, etc. -Luke
 ```
+Here we assume the underlying tree:
+  ![tree](notes/img/underlyingtree.png)
 
    
 
