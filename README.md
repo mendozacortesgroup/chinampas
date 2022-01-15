@@ -11,7 +11,8 @@ Code for the paper https://arxiv.org/abs/2103.15265
 
 * **Overview**
   - We didn't find many studies of non linear signal flow graphs, despite the fact they are used to describe the [cardio vascular system](https://en.wikipedia.org/wiki/Signal-flow_graph#:~:text=Nonlinear%20flow%20graphs) and occur on the study of neural networks (artificial and biological).
-  - A chinampa is a space time representation of the flow of signals. A chinampa of arbitrary profit looks like the figure below in which the vertical axis is time, and on the horizontal axis we have vertex, each sending a signal to the one on the right and to themselves.
+  - Supposed that your experiment is modeled by a tree (graph). You can force some nodes to fire, or if the nodes receive two signals, then the nodes fire. Every node can send a signal to the node to the right or to itself.  Given a particular input, how do you predict if a certain node will fire at a fixed time?
+  - A chinampa is a space time representation of the flow of signals in a tree. A chinampa over a line with several nodes looks like the figure below in which the vertical axis is time, and each column has black nodes if that node fired at that time.
 
   ![standart](https://user-images.githubusercontent.com/18435221/112927159-8c8d2100-90e2-11eb-93a0-69e93edf529b.png)
 
@@ -72,7 +73,7 @@ tree.will_vertex_be_activated(4,3) #The node index is global i.e, node 0 is in b
 
 * **Colophon**
   - Credits -- code and algorithm: Luke Van Popering, Eric Dolores Cuenca and Antonio Arciniega-Nevarez.
-  - Copyright and License -- see `LICENSE.md` file.
+  - Copyright and License -- see [LICENSE](LICENSE) file.
   - How to contribute: we will write code to more general graphs, you are welcome to help us with code. We also want to find more use cases.
   - This project has received funding from the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2020R1C1C1A0100826).
   - References:  https://arxiv.org/abs/2103.15265
