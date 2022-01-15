@@ -22,16 +22,16 @@ Will a vertex be activated at a particular time given a certain input?
 We wrote a function that answers this questions efficiently. 
 [chinampas](src/chinampas.py).
 Example for chinampas in a line:
-"""
+```python
 import chinampas as ch
 activations = [[0,0],[1,0],[4,4],[5,4],[6,4],[7,5]]
 chain = ch.Chain_Chinampa(activations)
 print(f" Will vertex 7 at time 6 be activated?  {chain.will_vertex_be_activated(7,6)} ")
 print(f"list of pyramids in the chinampa: {[(pyramid.lP,pyramid.rP,pyramid.time) for pyramid in chain.pyramids]}")
-"""
+```
 Example for chinampas in a tree:
 
-"""
+```python
 import chinampas as ch
 tree = ch.Tree_Chinampa(0,{0:{'activations':[[4,0],[5,0]],'branches':[1,2]},
                            1:{'activations':[[0,2],[1,2]],'branches':[]},
@@ -39,8 +39,7 @@ tree = ch.Tree_Chinampa(0,{0:{'activations':[[4,0],[5,0]],'branches':[1,2]},
                            }
                        )
 tree.will_vertex_be_activated(4,3) #The node index is global i.e, node 0 is in branch 1, node 2 in branch 2, etc. -Luke
-                              
-"""
+```
 
 Here is a [python program](main.py) to find those chinampas of profit 0.
 
