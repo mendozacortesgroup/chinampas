@@ -45,7 +45,7 @@ tree = ch.Tree_Chinampa(0,{0:{'activations':[[4,0],[5,0]],'branches':[1,2]},
                            }
                        )
 print(f"if we activate the vertices 0,1, 4, 5 at time 0, the vertices 2,3 at time 2, ")
-print(f" will the vertex 5 be activated at time 4? {tree.will_vertex_be_activated(5,4)}") #The node index is global i.e, node 0 is in branch 1, node 2 in branch 2, etc. -Luke
+print(f" will the vertex 5 be activated at time 5? {tree.will_vertex_be_activated(5,5)}, how about at time 6? {tree.will_vertex_be_activated(5,6)}") #The node index is global i.e, node 0 is in branch 1, node 2 in branch 2, etc. -Luke
 ```
 Here we assume the underlying tree:
 
