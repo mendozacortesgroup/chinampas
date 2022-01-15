@@ -291,13 +291,13 @@ class Tree_Chinampa(Chinampa):
         return self.branches[branch_index].when_will_vertex_be_activated(n)
 """
 Examples of use:
-import chinampas as ch
+
 activations = [[0,0],[1,0],[4,4],[5,4],[6,4],[7,5]]
-chain = ch.Chain_Chinampa(activations)
+chain = Chain_Chinampa(activations)
 print(f" Will vertex 7 at time 6 be activated?  {chain.will_vertex_be_activated(7,6)} ")
 print(f"list of pyramids in the chinampa: {[(pyramid.lP,pyramid.rP,pyramid.time) for pyramid in chain.pyramids]}")
 
-tree = ch.Tree_Chinampa(0,{0:{'activations':[[4,0],[5,0]],'branches':[1,2]},
+tree = Tree_Chinampa(0,{0:{'activations':[[4,0],[5,0]],'branches':[1,2]},
                            1:{'activations':[[0,2],[1,2]],'branches':[]},
                            2:{'activations':[[2,2],[3,2]],'branches':[]}
                            }
