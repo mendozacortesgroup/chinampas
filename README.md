@@ -74,6 +74,6 @@ tree.will_vertex_be_activated(4,3) #The node index is global i.e, node 0 is in b
 * **Colophon**
   - Credits -- code and algorithm: Luke Van Popering, Eric Dolores Cuenca and Antonio Arciniega-Nevarez.
   - Copyright and License -- see [LICENSE](LICENSE) file.
-  - How to contribute: we will write code to more general graphs, you are welcome to help us with code. We also want to find more use cases.
+  - How to contribute: we will study more general graphs with less restrictions, you are welcome to help us with code. We also want to find more use cases.
   - This project has received funding from the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2020R1C1C1A0100826).
   - References:  https://arxiv.org/abs/2103.15265
