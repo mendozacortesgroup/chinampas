@@ -205,26 +205,26 @@ class Tree_Chinampa(Chinampa):
 
         :param activations: Maps [chain_idx] to dict containing 1) nested list of 
                             primary vertex positions and activation times and 2) list 
-                            of branches. See example.
+                            of branches. Assumed to be sorted. See example.
         :type activations:  dict{int:{str:list[list],str:dict{int:int}}}
 
         :param parent: Optional. Tuple of self.chain attribute and [chain_idx] of parent chain.
         :type parent: tuple(Chain_Chinampa,int)
 
-        :example: TD_Tree_Chinampa(0,{0:{'activations':[[0,0],[1,0]],'branches':[1,2]},
-                                        1:{'activations':[[2,0],[3,0]],'branches':{}},
-                                        2:{'activations':[[4,0]],'branches':{}}
+        :example: TD_Tree_Chinampa(0,{0:{'activations':[[3,0],[4,0]],'branches':[1,2]},
+                                        1:{'activations':[[0,0],[1,0]],'branches':{}},
+                                        2:{'activations':[[2,0]],'branches':{}}
                                         }
                                    )
                             defines a tree wherein we have
-                                 a. PVs 0 and 1 at time 0 within 
+                                 a. PVs 3 and 4 at time 0 within 
                                     chain 0.
-                                 b. PVs 2 and 3 at time 0 within 
+                                 b. PVs 0 and 1 at time 0 within 
                                     chain 1. 
-                                 c. PV 4 at time 0 within chain 2. 
+                                 c. PV 2 at time 0 within chain 2. 
                                  
-                            Chain 0 is connected to chain 1 via vertex 3 -> vertex 0,
-                            and also to chain 2 via vertex 4 -> vertex 0.
+                            Chain 0 is connected to chain 1 via vertex 1 -> vertex 3,
+                            and also to chain 2 via vertex 2 -> vertex 3.
 
         '''
 
@@ -258,7 +258,7 @@ class Tree_Chinampa(Chinampa):
         '''
         branch_rVs = [branch.chain.rV for branch in self.branches]
         for idx,branch in enumerate(self.branches):
-            if self.chain.rV < n and n <= len(branch):
+            if self.chain.rV > n and n <= len(branch):
                 return idx
         return None
 
