@@ -23,7 +23,7 @@ We wrote a function that answers this questions efficiently.
 [chinampas](chinampa/chinampa.py).
 Example for chinampas in a line:
 ```python
-import chinampa as ch
+from chinampas import chinampa as ch
 activations = [[0,0],[1,0],[4,4],[5,4],[6,4],[7,5]]
 chain = ch.Chain_Chinampa(activations)
 print(f" Will vertex 7 at time 6 be activated?  {chain.will_vertex_be_activated(7,6)} ")
@@ -32,7 +32,7 @@ print(f"list of pyramids in the chinampa: {[(pyramid.lP,pyramid.rP,pyramid.time)
 Example for chinampas in a tree:
 
 ```python
-import chinampa as ch
+from chinampas import chinampa as ch
 tree = ch.Tree_Chinampa(0,{0:{'activations':[[4,0],[5,0]],'branches':[1,2]},
                            1:{'activations':[[0,2],[1,2]],'branches':[]},
                            2:{'activations':[[2,2],[3,2]],'branches':[]}
