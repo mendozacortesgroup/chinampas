@@ -133,7 +133,7 @@ class Chain_Chinampa(Chinampa):
         for walker in listOfPyramids[1::]:
             if previous.rP==walker.lP - 1 and previous.time == walker.time:
                 previous.rP = walker.rP
-                dynamic_copy = dynamic_copy[:index] + dynamic_copy[idx+1::]
+                dynamic_copy = dynamic_copy[:index] + dynamic_copy[index+1::]
             else:
                 previous = dynamic_copy[index]
                 index += 1
