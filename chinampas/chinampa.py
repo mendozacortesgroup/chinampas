@@ -292,7 +292,7 @@ class Tree_Chinampa(Chinampa):
 """
 Examples of use:
 
-activations = [[0,0],[1,0],[4,4],[5,4],[6,4],[7,5]]
+activations = [[2,0],[3,0],[4,1],[0,2],[1,2],[3,2],[2,3],[3,3],[5,5]]
 chain = Chain_Chinampa(activations)
 print(f" Will vertex 7 at time 6 be activated?  {chain.will_vertex_be_activated(7,6)} ")
 print(f"list of pyramids in the chinampa: {[(pyramid.lP,pyramid.rP,pyramid.time) for pyramid in chain.pyramids]}")
