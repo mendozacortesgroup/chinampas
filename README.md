@@ -63,7 +63,7 @@ Here we assume the underlying tree:
     git clone https://github.com/mendozacortesgroup/chinampas.git
     cd chinampas
   - prerequisites
-    python >=3.6
+    python >=3.7
     numpy >= 1.21.4 
 
   - location of:
